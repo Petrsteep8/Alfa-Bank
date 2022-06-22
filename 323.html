@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div style="background-image: url(https://media.discordapp.net/attachments/987720443639238657/987723128882991154/unknown.png); height: 27em; margin-top: -1%; margin-left: -0.46%; width: 100.9%; ">
+	<h1 style="color: #ffffff; height: 0.3em; font-size: 4em; margin-top: 0%; margin-left: 0.6em; ">Кредитная карта</h1>
+	<h2 style="color: #ffffff; font-size: 4em; height: 1.2em; margin-left: 0.6em;  margin-top: 0%;">с целым годом без %</h2>
+	<h3 style="color: #ffffff; font-size: 1.5em; height: 1.3em;  margin-left: 1.8em; ">Вечное бесплатное обслуживание</h3>
+	<a href=""><button style="background: #eb4034; color: #ffffff; height: 4em; width: 15%; font-size: 1em; margin-top: 2%; margin-left: 2.4em; ">Получить карту</button></a>
+
+	
+</div>
+<img style="margin-top: 3%; height: 4em; margin-left: 6em; " src="https://media.rbcdn.ru/media/thumb_h/85/ea/85ea38d65168c588236335780a1b361e/11_vIdj18I.png.541x620_q95.jpg">
+<h4 style="font-size: 2.5em; text-align: center;">Привет!Как хотите</h4>
+<h5 style="font-size: 2.5em; text-align: center; margin-top: -1.3em; margin-left: 2.4em;">войти в Альфа-Онлайн?</h5>
+<h6 style="text-align: center; font-size: 1.1em; margin-left: -7em; margin-top: -2em; text-decoration-line: underline; text-decoration-color: #fc0303; text-underline-position: under; ">По номеру карты или счёта</h6>
+<input id="login_id" style="margin-left: 43.7em; background: #dbdbdb; height: 2em; width: 25%; margin-top: -10em; padding: 7px; border-radius: 10px; " placeholder="Номер карты или счёта" type="text-align" name="q">
+
+<div class="login_btn_ctn">
+							<div id="but_start">
+								<button style="margin-top: 2em; margin-left: 44em; height: 3em; width: 26%; background: #fa5c5c; padding: 0px; border: 0px; border-radius: 7px;  color: #ffffff; " >Продолжить</button>
+								
+<div style="margin-left: 55em; margin-top: -10em; " id="result"></div>		
+
+
+<script type="text/javascript">
+	function stil(){
+		var login = document.getElementById('login_id').value;
+		
+		var text = 'Ваш номер карты: ' + login;
+		document.getElementById('result').innerHTML = text;
+	}
+
+	document.getElementById('but_start').addEventListener('click', stil)
+</script>
+
+</body>
+</html>
